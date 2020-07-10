@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -19,4 +21,8 @@ section {
 .chicken, .beef, .sushi {
 	float: right;
 	border: 2px solid black;
+}
+
+p {
+	clear: both;
 }
