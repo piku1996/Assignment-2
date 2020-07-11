@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
-
+/*
 h1 {
 	text-align: center;
 
@@ -16,13 +16,99 @@ section {
 	width: 31%;
 	margin: 15px;
 	padding: 10px;
+	position: relative;
 }
 
 .chicken, .beef, .sushi {
 	float: right;
 	border: 2px solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 p {
 	clear: both;
+}*/
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 175%;
+	font-variant: bold;
+	text-align: center;
+	margin: 35px;
+}
+
+#sec-1, #sec-2, #sec-3 {
+	/*float: left;*/
+	border: 1px solid black;
+	/*width: 31%;*/
+	margin-left: 25px;
+	padding: 15px;
+	background-color: gray;
+	font-family: "comic sans ms";
+	position: relative;
+	padding-top: 40px;
+}
+
+.chicken, .beef, .sushi {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+	border: solid black;
+	border-width: 0 0 1px 1px; 
+	padding: 5px 30px;
+	font-size: 125%;
+}
+
+.chicken {
+	background-color: #db8d8d;
+
+}
+
+.beef {
+	background-color: #d13f3f;
+}
+
+.sushi {
+	background-color: #d5b74a;
+}
+
+@media (min-width: 992px){
+	#sec-1 {
+		
+		width: 31%;
+	}
+	#sec-2 {
+		width: 31%;
+	}
+	#sec-3 {
+		width: 31%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #sec-1 {
+    	
+		width: 50%;
+	}
+	#sec-2 {
+		width: 50%;
+	}
+	#sec-3 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	#sec-1 {
+		width: 100%;
+	}
+	#sec-2 {
+		width: 100%;
+	}
+	#sec-3 {
+		width: 100%;
+	}
 }
