@@ -34,12 +34,12 @@ p {
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 175%;
-	font-variant: bold;
+	/*font-variant: bold;*/
 	text-align: center;
 	margin: 35px;
 }
 
-#sec-1, #sec-2, #sec-3 {
+#sec1, #sec2, #sec3 {
 	/*float: left;*/
 	border: 1px solid black;
 	/*width: 31%;
@@ -82,7 +82,7 @@ h1 {
 }
 
 @media (min-width: 992px){
-   #sec-1, #sec-2, #sec-3 {
+   #sec1, #sec2, #sec3 {
    		box-sizing: border-box;
    		float: left;
    		width: 30%;
@@ -91,15 +91,15 @@ h1 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-   #sec-1, #sec-2 {
+   #sec1, #sec2 {
    		float: left;
    		box-sizing: border-box;
    		width: 45%;
    		margin-left: 35px;
    		/*margin-right: auto;*/
-   		margin-bottom: 35px;;
+   		margin-bottom: 35px;
    }
-   #sec-3 {
+   #sec3 {
    		clear: both;
    		width: 93%;
    		margin-left: auto;
