@@ -42,8 +42,8 @@ h1 {
 #sec-1, #sec-2, #sec-3 {
 	/*float: left;*/
 	border: 1px solid black;
-	/*width: 31%;*/
-	margin-left: 25px;
+	/*width: 31%;
+	margin-left: 25px;*/
 	padding: 15px;
 	background-color: gray;
 	font-family: "comic sans ms";
@@ -76,39 +76,12 @@ h1 {
 }
 
 @media (min-width: 992px){
-	#sec-1 {
-		
-		width: 31%;
-	}
-	#sec-2 {
-		width: 31%;
-	}
-	#sec-3 {
-		width: 31%;
-	}
+	
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #sec-1 {
-    	
-		width: 50%;
-	}
-	#sec-2 {
-		width: 50%;
-	}
-	#sec-3 {
-		width: 100%;
-	}
-}
+   
 
 @media (max-width: 767px){
-	#sec-1 {
-		width: 100%;
-	}
-	#sec-2 {
-		width: 100%;
-	}
-	#sec-3 {
-		width: 100%;
-	}
+	
 }
