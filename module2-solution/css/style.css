@@ -27,6 +27,17 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.sec1 {
+	background-color: #bc7e99;
+}
+
+.sec2 {
+	background-color: #695faa;
+}
+
+.sec3 {
+	background-color: #77aa5f;
+}
 .chicken, .beef, .sushi {
 	position: absolute;
 	top: 0px;
